@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8d73a35e4e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700;800&family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+    
+    
+    <title>ISRO Mangalyaan - By Hardick Raj</title>
+  <link rel="stylesheet" href="assets/index.2b363b98.css">
+</head>
+<body class="overflow-x-hidden selection:text-[#f9702c] selection:bg-slate-700 relative bg-primary-bg">
+
+    <div class="animation-wrapper">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+        <div class="particle particle-3"></div>
+        <div class="particle particle-4"></div>
+    </div>
+
+    <div id="scroll-progress" class="fixed top-0 right-0 w-[3px] sm:w-1 bg-[#f9702c] h-0 z-[1000]"></div>
+
+    <a href="#particles-js" id="scroll-to-top" class="fixed right-4 bottom-3 md:right-8 md:bottom-6 bg-[#f9702c] hover:bg-[#f1562c] w-14 h-14 hover:w-40 transition-all duration-300 group items-center justify-center rounded-full text-center cursor-pointer hover:px-5 shadow-lg z-[999]">
+        <p id="menutext" class="text-lg font-rajdhani text-white mr-5 hidden group-hover:block w-full menu-text">GO&nbsp;TO&nbsp;TOP</p>
+        <i class="fa-solid fa-angle-up text-white text-lg"></i>
+    </a>
+
+    <!-- hero section starts  -->
+    <section id="particles-js" class="bg-[#552a79] overflow-hidden h-screen relative w-full hero">
+
+        <header class="py-3 px-4 md:px-14 flex justify-end items-center w-full fixed top-0 left-0 z-50">
+            <div class="">
+                <!-- <p class="text-white font-bold text-xl font-[azonix] tracking-wider h-14 bg-violet-600 rounded-l-full px-4">MENU</p> -->
+                <div id="menubtn" class="bg-[#f9702c] hover:bg-[#f1562c] w-14 h-14 hover:w-40 transition-all duration-300  group flex items-center justify-center rounded-full text-center cursor-pointer menu-btn hover:px-5 shadow-lg">
+                    <p id="menutext" class="text-lg font-rajdhani text-white mr-5 hidden group-hover:block menu-text">MENU</p>
+                    <p id="menutext" class="text-lg font-rajdhani text-white mr-5 close-text">CLOSE</p>
+                    <button class="h-0.5 w-7 bg-white relative -mt-4"></button>
+                </div>
+            </div>
+            <!-- menu button  -->
+        </header>
+
+        <nav id="nav" class="w-full sm:w-[450px] bg-primary-bg h-full fixed overflow-y-scroll top-0 left-0 py-10 px-4 sm:px-10 z-40">
+
+            <div class="mb-6 fixed top-0 left-0 bg-primary-bg pt-6 pb-4 pl-6 w-[450px] z-10  mars-an after:bg-gradient-to-b after:from-primary-bg after:to-transparent after:absolute after:-bottom-6 after:left-0 after:h-6 after:w-full">
+                <img src="assets/mars-illustration.10f7a3a6.png" alt="" class="w-[130px] inline-block">
+            </div>
+
+            <ul class="text-3xl leading-10 text-white font-rajdhani font-semibold uppercase pt-[150px] space-y-2 sm:space-y-5">
+                <li class="flex items-center justify-between ">
+                    <a href="#particles-js" class=" inline-block tracking-wide" data-item="home">home</a>
+                    <i class="fa-solid fa-arrow-right text-lg transition-all duration-500"></i>
+                </li>
+                <li class="flex items-center justify-between ">
+                    <a href="#about" class=" inline-block tracking-wide" data-item="About_MOM">About_MOM</a>
+                    <i class="fa-solid fa-arrow-right text-lg transition-all duration-500"></i>
+                </li>
+                <li class="flex items-center justify-between ">
+                    <a href="#cost" class=" inline-block tracking-wide" data-item="Mission_cost">Mission_cost</a>
+                    <i class="fa-solid fa-arrow-right text-lg transition-all duration-500"></i>
+                </li>
+                <li class="flex items-center justify-between ">
+                    <a href="#launch" class=" inline-block tracking-wide" data-item="Launch">Launch</a>
+                    <i class="fa-solid fa-arrow-right text-lg transition-all duration-500"></i>
+                </li>
+                <li class="flex items-center justify-between ">
+                    <a href="#objective" class=" inline-block tracking-wide" data-item="objective">objective</a>
+                    <i class="fa-solid fa-arrow-right text-lg transition-all duration-500"></i>
+                </li>
+                <li class="flex items-center justify-between ">
+                    <a href="#vehicle" class=" inline-block tracking-wide" data-item="launch_vehicle">launch_vehicle</a>
+                    <i class="fa-solid fa-arrow-right text-lg transition-all duration-500"></i>
+                </li>
+                <li class="flex items-center justify-between ">
+                    <a href="#payload" class=" inline-block tracking-wide" data-item="payloads">payloads</a>
+                    <i class="fa-solid fa-arrow-right text-lg transition-all duration-500"></i>
+                </li>
+                <li class="flex items-center justify-between ">
+                    <a href="#design" class=" inline-block tracking-wide" data-item="Design">Design</a>
+                    <i class="fa-solid fa-arrow-right text-lg transition-all duration-500"></i>
+                </li>
+                <li class="flex items-center justify-between ">
+                    <a href="#pictures" class=" inline-block tracking-wide" data-item="Pictures_of_mars">Pictures_of_mars</a>
+                    <i class="fa-solid fa-arrow-right text-lg transition-all duration-500"></i>
+                </li>
+                <li class="flex items-center justify-between ">
+                    <a href="#tracking" class=" inline-block tracking-wide" data-item="tracking">tracking</a>
+                    <i class="fa-solid fa-arrow-right text-lg transition-all duration-500"></i>
+                </li>
+                <li class="flex items-center justify-between ">
+                    <a href="#profile" class=" inline-block tracking-wide" data-item="Mission_Profile">Mission_Profile</a>
+                    <i class="fa-solid fa-arrow-right text-lg transition-all duration-500"></i>
+                </li>
+                <li class="flex items-center justify-between ">
+                    <a href="#recognition" class=" inline-block tracking-wide" data-item="Recognition">Recognition</a>
+                    <i class="fa-solid fa-arrow-right text-lg transition-all duration-500"></i>
+                </li>
+                <li class="flex items-center justify-between ">
+                    <a href="#timeline" class=" inline-block tracking-wide" data-item="Timeline">Timeline</a>
+                    <i class="fa-solid fa-arrow-right text-lg transition-all duration-500"></i>
+                </li>
+                <li class="flex items-center justify-between ">
+                    <a href="#team" class=" inline-block tracking-wide" data-item="Team">Team</a>
+                    <i class="fa-solid fa-arrow-right text-lg transition-all duration-500"></i>
+                </li>
+            </ul>
+        </nav>
+        
+        <img id="hero-5" src="assets/hero-parallax-5.2290e3d3.png" alt="" class="w-full h-full absolute top-0 left-0 object-cover opacity-75">
+        <div class="text-white text-center flex flex-col items-center justify-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <h2 id="text-1" class="text-[8vw] md:text-6xl lg:text-7xl font-bitter font-bold">ISRO</h2>
+            <h1 id="text-2" class="text-[12vw] lg:text-9xl font-bitter font-bold">MANGALYAAN</h1>
+            <h3 id="text-3" class="text-4xl sm:text-5xl font-rajdhani font-bold mt-5 tracking-wider translate-x-[550px]"><span class="text-[#f1562c]">M</span>ARS &nbsp;<span class="text-[#f1562c] ">O</span>RBITER &nbsp;<span class="text-[#f1562c]">M</span>ISSION</h3>
+        </div>
+        <!-- hero text  -->
+
+       <!-- <div class="flex justify-center items-center"> -->
+        <img id="hero-1" src="assets/hero-parallax-1.a3a03b69.png" alt="" class="w-full h-full absolute top-0 left-0 object-cover">
+        <img id="hero-2" src="assets/hero-parallax-2.86bd0679.png" alt="" class="w-full h-full absolute top-0 left-0 object-cover">
+        <img id="hero-3" src="assets/hero-parallax-3.5158c68a.png" alt="" class="w-full h-full absolute top-0 left-0 object-cover">
+        <img id="hero-4" src="assets/hero-parallax-4.2fed6029.png" alt="" class="w-full h-full absolute top-0 left-0 object-cover">
+        <img id="hero-6" src="assets/rocket.2e3c8d76.png" alt="" class="w-60 -rotate-12 sm:rotate-0 sm:w-[300px] absolute bottom-0 left-0">
+       <!-- </div> -->
+        
+    </section>
+    <!-- hero section ends  -->
+
+<main id="main" class="">
+
+    <section id="about" class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-primary-bg">
+        <div class="flex flex-col lg:flex-row justify-between w-full">
+
+            <div class="w-full lg:w-1/2">
+                <div class="img-an-1 bg-neutral-200 p-2 sm:p-3 overflow-hidden">
+                    <img src="assets/mom.86d719ea.jpg" alt="" class="w-full">
+                </div>
+            </div>
+
+            <div class="w-full mt-14 lg:mt-0 lg:w-2/5">
+                <h2 class="text-white before:bg-violet-800 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">Mission MOM<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+                <p class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">India's Mars Orbiter Mission or Mangalyaan is the ISRO's first mission to the Red Planet. The mission aims to test key technologies for interplanetary exploration and to use its five science instruments to study the Martian surface and atmosphere from orbit. <span class="block h-full w-0.5 bg-violet-900 absolute -left-4 top-0"></span></p>
+            </div>
+
+        </div>
+    </section>
+    <!-- mission mom  -->
+
+    <section class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-primary-bg">
+        <div class="flex flex-col-reverse lg:flex-row justify-between w-full">
+            
+            <div class="w-full mt-14 lg:mt-0 lg:w-2/5">
+                <h2 class="text-white before:bg-orange-700 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">First Nation<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+                <p class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">On November 5, 2013, the Indian Space Research Organization (ISRO) launched MANGALYAAN. The Mangalyaan spacecraft successfully entered Mars orbit on September 23, 2014, making INDIA the Fourth nation in the world and First Asian nation. ISRO is the First space agency in the world to do so on its maiden attempt.<span class="block h-full w-0.5 bg-orange-900 absolute -left-4 top-0"></span></p>
+            </div>
+
+            <div class="w-full lg:w-1/2">
+                <div class="img-an-2 bg-neutral-200 p-2 sm:p-3">
+                    <img src="assets/first-nation.60187b85.jpg" alt="" class="w-full">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- first nation  -->
+
+    <section id="cost" class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-gradient-to-b from-primary-bg to-secondary-bg">
+        <div class="flex flex-col lg:flex-row justify-between w-full">
+
+            <div class="w-full  lg:w-1/2">
+                <div class="img-an-1 bg-neutral-200 p-2 sm:p-3">
+                    <img src="assets/least-expensive.5ddbe302.jpg" alt="" class="w-full">
+                </div>
+            </div>
+
+            <div class="w-full mt-14 lg:mt-0 lg:w-2/5">
+                <h2 class="text-white before:bg-lime-700 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">Least Expensive<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+                <p class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">The total cost of the mission was approximately ₹450 Crore ($73 m), making it the least-expensive Mars mission to date. Mangalyaan mission cost just 11% of NASA's MAVEN orbiter and less than the make-believe Hollywood film Gravity. MOM cost 7 rupees per kms to reach Mars.<span class="block h-full w-0.5 bg-lime-800 absolute -left-4 top-0"></span></p>
+            </div>
+
+        </div>
+    </section>
+    <!-- least expensive  -->
+
+    <section id="launch" class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-secondary-bg">
+        <div class="flex flex-col-reverse lg:flex-row justify-between w-full">
+            
+            <div class="w-full mt-14 lg:mt-0 lg:w-2/5">
+                <h2 class="text-white before:bg-fuchsia-700 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">Spacecraft Launch<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+                <p class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">MOM Spacecraft was launched from the First Launch Pad at Satish Dhawan Space Centre SHAR, Sriharikota at 09:08 UTC on 5 November 2013. Mangalyaan traveled for 298 days, covering ~65 crore kilometers, and reached Martian orbit on 24 September 2014.<span class="block h-full w-0.5 bg-fuchsia-900 absolute -left-4 top-0"></span></p>
+            </div>
+
+            <div class="w-full lg:w-1/2">
+                <div class="img-an-2 bg-neutral-200 p-2 sm:p-3">
+                    <img src="assets/launch.caab89cf.jpg" alt="" class="w-full">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Spacecraft launch  -->
+
+    <section id="objective" class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-secondary-bg">
+        <div class="flex flex-col lg:flex-row justify-between w-full">
+           
+            <div class="w-full  lg:w-1/2">
+                <div class="img-an-1 bg-neutral-200 p-2 sm:p-3">
+                    <img src="assets/atmosphere-study.875b7786.jpg" alt="" class="w-full">
+                </div>
+            </div>
+ 
+            <div class="w-full mt-14 lg:mt-0 lg:w-2/5">
+                <h2 class="text-white before:bg-indigo-700 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">Mars Atmosphere Study<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+                <p class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">MOM's objective is to explore Mars' surface features, morphology, mineralogy and Martian atmosphere using indigenous scientific instruments and to develop the technologies required for designing, planning, management and operations of an interplanetary mission.<span class="block h-full w-0.5 bg-indigo-900 absolute -left-4 top-0"></span></p>
+            </div>
+
+        </div>
+    </section>
+    <!-- Mars Atmosphere Study  -->
+
+    <section id="vehicle" class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-gradient-to-b to-primary-bg from-secondary-bg">
+        <div class="flex flex-col-reverse lg:flex-row justify-between w-full">
+
+            <div class="w-full mt-14 lg:mt-0 lg:w-2/5">
+                <h2 class="text-white before:bg-yellow-600 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">Launch Vehicle<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+                <p class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">MOM was launched aboard PSLV C-25, which was an XL variant of the PSLV, one of world's most reliable launch vehicles. The orbiter's dry mass is 475 kg (1,047 lb) and it carried 852 kg (1,878 lb) of fuel at launch.<span class="block h-full w-0.5 bg-yellow-700 absolute -left-4 top-0"></span></p>
+            </div>
+
+            <div class="w-full lg:w-1/2">
+                <div class="img-an-2 bg-neutral-200 p-2 sm:p-3">
+                    <img src="assets/vehicle.cfec4e12.jpg" alt="" class="w-full">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- launch vehicle  -->
+
+    <section class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-primary-bg">
+        <div class="flex flex-col lg:flex-row justify-between w-full">
+            
+            <div class="w-full  lg:w-1/2">
+                <div class="img-an-1 bg-neutral-200 p-2 sm:p-3">
+                    <img src="assets/challenging.286aa54e.jpg" alt="" class="w-full">
+                </div>
+            </div>
+
+            <div class="w-full mt-14 lg:mt-0 lg:w-2/5">
+                <h2 class="text-white before:bg-cyan-600 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">Challenging PSLV-C25<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+                <p class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">The challenging PSLV-C25 mission was optimised for the launch of Mangalyaan into a highly elliptical Earth orbit with a perigee (nearest point to Earth) of 250 km and an apogee (farthest point to Earth) of 23,500 km with an inclination of 19.2 degree with respect to the equator.<span class="block h-full w-0.5 bg-cyan-700 absolute -left-4 top-0"></span></p>
+            </div>
+
+        </div>
+    </section>
+    <!-- challenging pslv-c25  -->
+
+    <section class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-primary-bg">
+        <div class="flex flex-col-reverse lg:flex-row justify-between w-full">
+
+            <div class="w-full mt-14 lg:mt-0 lg:w-2/5">
+                <h2 class="text-white before:bg-red-600 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">PSLV over GSLV<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+                <p class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">ISRO originally intended to launch MOM with its Geosynchronous Satellite Launch Vehicle (GSLV) but at that time, GSLV tests were not successful. Waiting for the new batch of rockets would have delayed the MOM for at least three years, so ISRO opted to switch to Polar Satellite Launch Vehicle (PSLV). Mangalyaan weighs ~1300 kg. PSLV can easily carry this weight.<span class="block h-full w-0.5 bg-red-700 absolute -left-4 top-0"></span></p>
+            </div>
+
+            <div class="w-full lg:w-1/2">
+                <div class="img-an-2 bg-neutral-200 p-2 sm:p-3">
+                    <img src="assets/gslv.f97131f9.jpg" alt="" class="w-full">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- pslv over gslv  -->
+
+    <section id="payload" class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-gradient-to-b from-primary-bg to-secondary-bg">
+        <div class="flex flex-col lg:flex-row justify-between w-full">
+            
+            <div class="w-full  lg:w-1/2">
+                <div class="img-an-1 bg-neutral-200 p-2 sm:p-3">
+                    <img src="assets/payload.c3709134.jpg" alt="" class="w-full">
+                </div>
+            </div>
+
+            <div class="w-full mt-14 lg:mt-0 lg:w-2/5">
+                <h2 class="text-white before:bg-pink-600 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">5 Scientific Payloads<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+                <div class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">
+                    <p >MOM spacecraft is carring 15kgs of payloads consist of:</p>
+                    <ul class="list-[square] list-inside" >
+                        <li>Mars Colour Camera (MCC)</li>
+                        <li>Thermal Infrared Imaging Spectrometer (TIS)</li>
+                        <li>Methane Sensor for Mars (MSM)</li>
+                        <li>Mars Exospheric Neutral Composition Analyser (MENCA)</li>
+                        <li>Lyman Alpha Photometer (LAP)</li>
+                    </ul>
+                    <span class="block h-full w-0.5 bg-pink-700 absolute -left-4 top-0"></span>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+    <!-- 5 scientific payload  -->
+
+    <section id="design" class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-secondary-bg">
+        <div class="flex flex-col-reverse lg:flex-row justify-between w-full">
+
+            <div class="w-full mt-14 lg:mt-0 lg:w-2/5">
+                <h2 class="text-white before:bg-emerald-600 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">Spacecraft Design<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+                <p class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">Modified I-1 K Bus structure built with Aluminium and Composite Fibre Reinforced Plastic (CFRP) sandwich with lift-off mass of 1337 kg. 3 solar array panels generate electricity of 840W. Spacecraft contains Passive thermal control system, Attitude and Orbit Control Propultion along with Low Gain; Mid Gain; High Gain Antennae.<span class="block h-full w-0.5 bg-emerald-700 absolute -left-4 top-0"></span></p>
+            </div>
+
+            <div class="w-full lg:w-1/2">
+                <div class="img-an-2 bg-neutral-200 p-2 sm:p-3">
+                    <img src="assets/design.87cff994.jpg" alt="" class="w-full">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- spacecraft design  -->
+
+    <section id="pictures" class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-gradient-to-b to-primary-bg from-secondary-bg text-center ">
+        <h2 class="text-white before:bg-blue-700 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">Breathtaking Pictures Of Mars<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+        <p class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">Pictures captured by Mars Colour Camera (MCC) onboard India's Mars Orbiter Spacecraft</p>
+
+        <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-7 sm:mt-10 lg:mt-16">
+            <div class="w-full bg-neutral-200  relative project hover:rounded-3xl transition-all duration-500 group overflow-hidden">
+                <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="00">
+                    <img   src="assets/picture-1.f612f482.jpg" alt="" class="w-full cursor-pointer group-hover:scale-125 transition-all duration-500">
+                </div>
+                
+            </div>
+            <div class="w-full bg-neutral-200  relative project hover:rounded-3xl transition-all duration-500 group overflow-hidden">
+                <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
+                    <img   src="assets/picture-2.59d934c7.jpg" alt="" class="w-full cursor-pointer group-hover:scale-125 transition-all duration-500">    
+                </div>
+            </div>
+            <div class="w-full bg-neutral-200  relative project hover:rounded-3xl transition-all duration-500 group overflow-hidden">
+                <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
+                    <img   src="assets/picture-3.cd6adb75.jpg" alt="" class="w-full cursor-pointer group-hover:scale-125 transition-all duration-500 " >
+                </div>
+            </div>
+            <div class="w-full bg-neutral-200  relative project hover:rounded-3xl transition-all duration-500 group overflow-hidden">
+                <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">
+                    <img   src="assets/picture-5.fc206f98.jpg" alt="" class="w-full cursor-pointer group-hover:scale-125 transition-all duration-500">
+                </div>
+            </div>
+            <div class="w-full bg-neutral-200  relative project hover:rounded-3xl transition-all duration-500 group overflow-hidden" >
+                <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
+                    <img   src="assets/picture-6.16bbe442.jpg" alt="" class="w-full cursor-pointer group-hover:scale-125 transition-all duration-500">
+                </div>
+            </div>
+            <div class="w-full bg-neutral-200  relative project hover:rounded-3xl transition-all duration-500 group overflow-hidden">
+                <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
+                    <img   src="assets/picture-7.3ca8bd44.jpg" alt="" class="w-full cursor-pointer group-hover:scale-125 transition-all duration-500">
+                </div>
+            </div>
+            <div class="w-full bg-neutral-200  relative project hover:rounded-3xl transition-all duration-500 group overflow-hidden">
+                <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">
+                    <img    src="assets/picture-8.ef44ae04.jpg" alt="" class="w-full cursor-pointer group-hover:scale-125 transition-all duration-500">
+                </div>
+            </div>
+            <div class="w-full bg-neutral-200  relative project hover:rounded-3xl transition-all duration-500 group overflow-hidden">
+                <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
+                    <img    src="assets/picture-9.744a673c.jpg" alt="" class="w-full cursor-pointer group-hover:scale-125 transition-all duration-500">
+                </div>
+            </div>
+            <div class="w-full bg-neutral-200  relative project hover:rounded-3xl transition-all duration-500 group overflow-hidden" >
+                <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="00">
+                    <img    src="assets/picture-10.e5ed3e21.jpg" alt="" class="w-full cursor-pointer group-hover:scale-125 transition-all duration-500">
+                </div>
+            </div>
+            <div class="w-full bg-neutral-200  relative project hover:rounded-3xl transition-all duration-500 group overflow-hidden">
+                <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
+                    <img    src="assets/picture-11.1e373080.jpg" alt="" class="w-full cursor-pointer group-hover:scale-125 transition-all duration-500">
+                </div>
+            </div>
+            <div class="w-full bg-neutral-200  relative project hover:rounded-3xl transition-all duration-500 group overflow-hidden">
+                <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">
+                    <img    src="assets/picture-12.c119d100.jpg" alt="" class="w-full cursor-pointer group-hover:scale-125 transition-all duration-500">
+                </div>
+            </div>
+            <div class="w-full bg-neutral-200  relative project hover:rounded-3xl transition-all duration-500 group overflow-hidden">
+                <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
+                    <img    src="assets/picture-13.142405a3.jpg" alt="" class="w-full cursor-pointer group-hover:scale-125 transition-all duration-500" >
+                </div>
+            </div>
+        </div>
+
+        <div class="picture-overlay w-full h-full fixed top-0 left-0" >
+            <div class="picc w-4/5 p-2 sm:p-3 bg-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 picture-overlay-inner z-[70]">
+                <img src="assets/picture-1.f612f482.jpg" alt="">
+            </div>
+            <button class="cursor-pointer close absolute top-3 right-3 bg-[#f9702c] hover:bg-[#f1562c] transition-all duration-300 rounded-full z-[70]"><i class="fa-solid fa-xmark w-10 h-10 text-xl leading-10 text-white cursor-pointer shadow-md shadow-black"></i></button>
+        </div>
+    </section>
+    <!-- pictures  -->
+
+    <section id="tracking" class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-primary-bg">
+        <div class="flex flex-col lg:flex-row justify-between w-full">
+            
+            <div class="w-full  lg:w-1/2">
+                <div class="img-an-1 bg-neutral-200 p-2 sm:p-3">
+                    <img src="assets/ground-segment.e94f811b.jpg" alt="" class="w-full">
+                </div>
+            </div>
+
+            <div class="w-full mt-14 lg:mt-0 lg:w-2/5">
+                <h2 class="text-white before:bg-orange-500 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">Ground Segment<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+                <p class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">The Orbiter is being tracked by the Indian Deep Space Network (IDSN), located outside Bangalore. IDSN's 32 m and 18 m diameter antennas are being complemented by NASA - JPL's Deep Space Network. ISRO Telemetry Tracking and Command Network (ISTRAC) will be providing support with many facilities.<span class="block h-full w-0.5 bg-orange-600 absolute -left-4 top-0"></span></p>
+            </div>
+
+        </div>
+    </section>
+    <!-- ground segment  -->
+
+    <section id="profile" class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-primary-bg">
+        <div class="flex flex-col-reverse lg:flex-row justify-between w-full">
+
+            <div class="w-full mt-14 lg:mt-0 lg:w-2/5">
+                <h2 class="text-white before:bg-slate-500 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">Geo Centric Phase<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+                <p class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">The spacecraft was injected into an Elliptic Parking Orbit by the launcher. The spacecraft is gradually maneuvered into a departure hyperbolic trajectory with which it escapes from the Earth's Sphere of Influence. ISRO uses a method of travel called a Hohmann Transfer Orbit to send a spacecraft from Earth to Mars with the least amount of fuel possible.<span class="block h-full w-0.5 bg-slate-600 absolute -left-4 top-0"></span></p>
+            </div>
+
+            <div class="w-full lg:w-1/2">
+                <div class="img-an-2 bg-neutral-200 p-2 sm:p-3">
+                    <img src="assets/geo-centric.9ecf543a.jpg" alt="" class="w-full">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- geo centric phase  -->
+
+    <section class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-gradient-to-b from-primary-bg to-secondary-bg">
+        <div class="flex flex-col lg:flex-row justify-between w-full">
+            
+            <div class="w-full  lg:w-1/2">
+                <div class="img-an-1 bg-neutral-200 p-2 sm:p-3">
+                    <img src="assets/helio-centric.dcde5d2f.jpg" alt="" class="w-full">
+                </div>
+            </div>
+
+            <div class="w-full mt-14 lg:mt-0 lg:w-2/5">
+                <h2 class="text-white before:bg-purple-700 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">Helio Centric Phase<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+                <p class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">The spacecraft leaves Earth in a direction tangential to Earth's orbit and encounters Mars tangentially to its orbit.It intersected the orbit of Mars at the exact moment when Mars is there too. Such an arrangement recur periodically at intervals of about 780 days.<span class="block h-full w-0.5 bg-purple-800 absolute -left-4 top-0"></span></p>
+            </div>
+
+        </div>
+    </section>
+    <!-- helio centric phase  -->
+
+    <section class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-secondary-bg">
+        <div class="flex flex-col-reverse lg:flex-row justify-between w-full">
+
+            <div class="w-full mt-14 lg:mt-0 lg:w-2/5">
+                <h2 class="text-white before:bg-sky-600 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">Martian Phase<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+                <p class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">The spacecraft arrives at the Mars Sphere of Influence in a hyperbolic trajectory. Spacecraft reaches the closest approach to Mars and was captured into planned orbit around mars. ISRO plans to launch the MOM during the November 2013 window utilizing minimum energy transfer opportunity.<span class="block h-full w-0.5 bg-sky-700 absolute -left-4 top-0"></span></p>
+            </div>
+
+            <div class="w-full lg:w-1/2">
+                <div class="img-an-2 bg-neutral-200 p-2 sm:p-3">
+                    <img src="assets/martian.2ec1ab0a.jpg" alt="" class="w-full">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Martian Phase  -->
+
+    <section id="recognition" class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-secondary-bg">
+        <div class="flex flex-col lg:flex-row justify-between w-full">
+            
+            <div class="w-full  lg:w-1/2">
+                <div class="img-an-1 bg-neutral-200 p-2 sm:p-3">
+                    <img src="assets/pride.9f1a2a27.jpg" alt="" class="w-full">
+                </div>
+            </div>
+
+            <div class="w-full mt-14 lg:mt-0 lg:w-2/5">
+                <h2 class="text-white before:bg-green-600 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">Pride of Asia<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+                <p class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">In 2014, China referred to India's successful Mars Orbiter Mission as the "Pride of Asia". The Mars Orbiter Mission team won US-based National Space Society's 2015 "Space Pioneer Award" in the Science and Engineering category as the Indian agency successfully executed a Mars mission in its first attempt.<span class="block h-full w-0.5 bg-green-700 absolute -left-4 top-0"></span></p>
+            </div>
+
+        </div>
+    </section>
+    <!-- Pride of Asia  -->
+
+    <section class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-gradient-to-b to-primary-bg from-secondary-bg">
+        <div class="flex flex-col-reverse lg:flex-row justify-between w-full">
+
+            <div class="w-full mt-14 lg:mt-0 lg:w-2/5">
+                <h2 class="text-white before:bg-rose-500 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">Recognition<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+                <p class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">An illustration of the MOM spacecraft is featured on the reverse of the ₹2,000 currency note of India.<br> An image taken by the spacecraft was the cover photo of the November 2016 issue of National Geographic magazine, "Mars: Race to the Red Planet".<br> Writer Minnie Vaid wrote a book called "Those Magnificent Women and their Flying Machines" which profiles the journeys of some of the key women who had leading roles in the mission.<span class="block h-full w-0.5 bg-rose-700 absolute -left-4 top-0"></span></p>
+            </div>
+
+            <div class="w-full lg:w-1/2">
+                <div class="img-an-2 bg-neutral-200 p-2 sm:p-3">
+                    <img src="assets/recognition.4352e63d.jpg" alt="" class="w-full">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Recognition  -->
+
+    <section class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-44 py-12 sm:py-20 lg:py-28 bg-primary-bg">
+        <div class="flex flex-col lg:flex-row justify-between w-full">
+            
+            <div class="w-full  lg:w-1/2">
+                <div class="img-an-1 bg-neutral-200 p-2 sm:p-3">
+                    <img src="assets/movie.71210f34.jpg" alt="" class="w-full">
+                </div>
+            </div>
+
+            <div class="w-full mt-14 lg:mt-0 lg:w-2/5">
+                <h2 class="text-white before:bg-yellow-500 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">Movies & TV Shows<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+                <div class="text-lg sm:text-xl text-neutral-200 font-mono mt-6 relative para">
+                    <p >The mission saw several film and TV show adaptations like:</p>
+                    <ul class="list-[square] list-inside" >
+                        <li>The 2019 Hindi film "Mission Mangal"</li>
+                        <li>A web series called "Mission Over Mars"</li>
+                        <li>"Space MOMs" released online in 2019</li>
+                        <li>A short film released in 2018, "Mission Mars"</li>
+                    </ul>
+                    <span class="block w-0.5 bg-yellow-600 absolute -left-4 top-0"></span>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+    <!-- Movies & TV Shows  -->
+
+    <section id="timeline" class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-48 py-12 sm:py-20 lg:py-28 bg-gradient-to-b to-secondary-bg from-primary-bg text-center">
+        <h2 class="text-white before:bg-red-700 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">The Timeline Of Mars Orbiter Mission<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+
+        <div class="text-lg sm:text-xl text-neutral-200 font-mono mt-10 para">
+            <ul class="list-[square]  text-left leading-9">
+                <li><span class=" font-semibold text-teal-500">November 5, 2013 --</span> ISRO's PSLV C25 took the Mars Orbiter Mission from Sriharikota, Andhra Pradesh.</li>
+                <li><span class="font-semibold text-orange-500">November 7, 2013 --</span> The first Earth-bound manoeuvre of the mission was performed.</li>
+                <li><span class="font-semibold text-violet-500">November 8, 2013 --</span> Second Earth-bound manoeuvre of the mission was completed.</li>
+                <li><span class="font-semibold text-lime-500">November 9, 2013 --</span> Third Earth-bound manoeuvre performed.</li>
+                <li><span class="font-semibold text-rose-500">November 11, 2013 --</span> The fourth Earth-bound manoeuvre completed.</li>
+                <li><span class="font-semibold text-green-500">November 12, 2013 --</span> Fifth Earth-bound manoeuvre performed.</li>
+                <li><span class="font-semibold text-cyan-500">November 16, 2013 --</span> The mission completed its sixth Earth-bound manoeuvre.</li>
+                <li><span class="font-semibold text-red-500">December 1, 2013 --</span> Mangalyaan leaves Earth's orbit and performs Trans-Mars injection.</li>
+                <li><span class="font-semibold text-amber-500">December 4, 2013 --</span> ISRO informs that the mission leaves Earth's Sphere of Influence of 9.25 lakh km radius.</li>
+                <li><span class="font-semibold text-indigo-500">December 11, 2013 --</span> ISRO completes first-course correction manoeuvre performed on the spacecraft.</li>
+                <li><span class="font-semibold text-fuchsia-500">June 11, 2014 --</span> Another course correction manoeuvre is executed by ISRO.</li>
+                <li><span class="font-semibold text-yellow-500">September 22, 2014 --</span> Mangalyaan enters Mars Gravitational Sphere of Influence.</li>
+                <li><span class="font-semibold text-pink-500">September 24, 2014 --</span> Mangalyaan reaches the intended orbit around Mars, making India the first country in the world to have successfully launched its mission to the Red Planet on the very first attempt.</li>
+            </ul>
+        </div>
+
+    </section>
+    <!-- timeline  -->
+
+    <section id="team" class="px-5 sm:px-16 md:px-32 lg:px-24 xl:px-48 py-12 sm:py-20 lg:py-28 bg-secondary-bg text-center">
+        <h2 class="text-white before:bg-cyan-700 inline px-4 sm:px-8 py-2 text-2xl sm:text-3xl font-mono font-semibold relative heading z-10 before:-z-10">Team Involved In The Mission<sup class="text-base sm:text-lg absolute right-2 top-0"><i class="fa-solid fa-quote-right"></i></sup></h2>
+
+        <div class="text-lg sm:text-xl text-neutral-200 font-mono mt-10 para">
+            <ul class="list-[square] text-left leading-9">
+                <li><span class=" font-semibold text-teal-500">K Radhakrishnan --</span> led as Chairman ISRO.</li>
+                <li><span class="font-semibold text-orange-500">Mylswamy Annadurai --</span> was the Programme Director and in charge of budget management as well as direction for spacecraft configuration, schedule and resources.</li>
+                <li><span class="font-semibold text-violet-500">S Ramakrishnan --</span> was a Director who helped in developing the liquid propulsion system of the PSLV launcher.</li>
+                <li><span class="font-semibold text-lime-500">P. Kunhikrishnan --</span> was a Project Director in the PSLV programme. He was also a Mission director of PSLV-C25/Mars Orbiter Mission.</li>
+                <li><span class="font-semibold text-rose-500">Moumita Dutta --</span> was the Project manager of the Mars Orbiter Mission.</li>
+                <li><span class="font-semibold text-green-500">Nandini Harinath --</span> was the Deputy Operations Director of Navigation.</li>
+                <li><span class="font-semibold text-cyan-500">Ritu Karidhal --</span> was the Deputy Operations Director of Navigation.</li>
+                <li><span class="font-semibold text-red-500">BS Kiran --</span> was the Associate Project Director of Flight Dynamics.</li>
+                <li><span class="font-semibold text-amber-500">V Kesava Raju --</span> was the Mars Orbiter Mission Director.</li>
+                <li><span class="font-semibold text-indigo-500">V Koteswara Rao --</span> was ISRO scientific secretary.</li>
+                <li><span class="font-semibold text-fuchsia-500">Chandradathan --</span> was the Director of the Liquid Propulsion System.</li>
+                <li><span class="font-semibold text-yellow-500">A. S. Kiran Kumar --</span> was the Director of the Satellite Application Centre.</li>
+                <li><span class="font-semibold text-pink-500">MYS Prasad --</span> is the Director at Satish Dhawan Space Centre. He was also the chairman at Launch Authorisation Board.</li>
+                <li><span class="font-semibold text-emerald-500">SK Shivakumar --</span> was a Director at the ISRO Satellite Centre. He was also a Project Director for the Deep Space Network.</li>
+                <li><span class="font-semibold text-purple-500">Subbiah Arunan --</span> was a Project Director at Mars Orbiter Mission.</li>
+                <li><span class="font-semibold text-sky-500">B Jayakumar --</span> was an Associate Project Director at the PSLV programme who was responsible for testing the rocket systems.</li>
+                <li><span class="font-semibold text-teal-500">MS Pannirselvam --</span> was the Chief General Manager at the Sriharikota Rocket port and was tasked to maintain launch schedules.</li>
+            </ul>
+        </div>
+
+    </section>
+    <!-- team  -->
+
+</main>
+
+    <section class="px-5 sm:px-12 lg:px-28 py-4 bg-primary-bg relative flex justify-between items-center">
+        <div class="text-neutral-200 text-base sm:text-lg font-rajdhani">
+            <p>&copy; This Storytelling website on ISRO Mangalyaan is created by <a href="http://rajhardick.ezyro.com" class="text-[#f9702c] text-lg sm:text-xl" target="_blank">Hardick Raj</a>.</p>
+        </div>
+
+        <div class="mars-an inline max-w-[80px]">
+            <img src="assets/mars-illustration.10f7a3a6.png" alt="" class="inline-block">
+        </div>
+    </section>
+    <!-- footer  -->
+
+    <script src="../assets/javascript/particles.js"></script>
+    <script src="../assets/javascript/app.js"></script>
+    <script src="../assets/javascript/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="../assets/javascript/scroll-out.js"></script>
+    <script>
+        ScrollOut({
+            targets:'.heading,.para,.img-an-1,.img-an-2'
+        });
+    </script>
+</body>
+</html>
