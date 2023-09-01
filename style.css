@@ -304,9 +304,6 @@ nav{
         width: 100%;
     }
 }
-.mars-an{
-    /* animation: nav .8s cubic-bezier(0.175, 0.885, 0.32, 1.275) both .2s; */
-}
 .mars-an img{
     animation: navmars 6s linear both;
     animation-iteration-count: infinite;
