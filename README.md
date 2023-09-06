@@ -9,5 +9,6 @@ autoprefixer, postcss, tailwindcss, vite
 
 # 🚀 How to run dev server on localhost:
 1. Open terminal/cmd
-2. run the command "npm run start"
-3. It will start a local server.
+2. Run command "npm install"
+3. run the command "npm run start"
+4. It will start a local server.
